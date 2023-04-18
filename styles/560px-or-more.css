@@ -1,0 +1,48 @@
+@media only screen and (max-width: 560px) {
+
+    body {
+      background-image: url(../images/background.jpg);
+      background-color: #fff;
+    }
+
+    nav {
+        flex-direction: column;
+      }
+
+      nav li {
+        margin: 10px 0;
+      }
+      
+      main {
+        width: 100%;
+        float: none;
+      }
+      
+      aside {
+        width: 100%;
+        float: none;
+      }
+
+      aside h2 {
+        font-size: 24px;
+        padding: 10px 20px;
+      }
+      
+      aside li {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+
+      #main-footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      #logo {
+        margin-bottom: 20px;
+      }
+      
+      #main-footer-content address {
+        margin: 0;
+      }
+    }
